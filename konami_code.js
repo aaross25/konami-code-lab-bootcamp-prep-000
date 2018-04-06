@@ -2,7 +2,7 @@ const code = [38, 38, 40, 40, 37, 39, 37, 39, 66, 65]
 
 function init() {
   const down = keydown;
-  let index = 0
+  let index = 0;
   function onKeyDownHandler(e) {
       var index = 0;
   document.addEventListener('keydown', function (e) {
@@ -19,4 +19,5 @@ function init() {
       index = 0;
     }
   }, false);
+}
 }
